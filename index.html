@@ -91,7 +91,7 @@ button{
             <h1>Cone surface area</h1>
         <div class="surface-area">
             <Label>Base Radius: <input  type="text" id="base-radius"> </Label>  
-            <select  id="cone-measure">
+            <select  id="cone-measure1">
                 <option value="centimeter">Centimeter</option>
                 <option value="feet">Feet</option>
                 <option value="mile">Mile</option>
@@ -113,17 +113,17 @@ button{
 
             <div class="answer">
                 <p class="BSA"></p>
-                <p class="parameter1"><sup></sup></p>
+                <p class="parameter1"><sup> </sup></p>
             </div>
 
             <div class="answer" >
                 <p class="LSA"></p>
-                <p class="parameter2"><sup></sup></p>
+                <p class="parameter2"><sup> </sup></p>
             </div>
 
             <div class="answer">
                 <p class="TSA"></p>
-                <p class="parameter3"><sup></sup></p>
+                <p class="parameter3"><sup> </sup></p>
             </div>
 
             <button onclick="coneSurface()">Submit</button>
@@ -519,7 +519,7 @@ button{
     </main>
 
  
-
+ 
     <script>
         function getOption() {
     selectElement = document.querySelector('#measure');
@@ -869,5 +869,7 @@ function PyramidSurface() {
 
 }
     </script>
+
+
 </body>
 </html>
